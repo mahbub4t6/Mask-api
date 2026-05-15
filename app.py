@@ -9,7 +9,7 @@ app = Flask(__name__)
 ORIGINAL_API_URL = os.environ.get("ORIGINAL_API_URL", "https://mam-boom-api-5a17.apps.hostingguru.io/api/v1/execute")
 ORIGINAL_API_KEY = os.environ.get("ORIGINAL_API_KEY", "lin_shen")
 VALID_PROXY_KEYS = os.environ.get("VALID_PROXY_KEYS", "lin_shen").split(",")
-SELF_PING_URL = os.environ.get("SELF_PING_URL", "https://your-domain.com/ping")
+SELF_PING_URL = os.environ.get("SELF_PING_URL", "https://mask-api-7csf.onrender.com")
 
 # সময় সীমা (সেকেন্ড)
 REQUEST_TIMEOUT = int(os.environ.get("REQUEST_TIMEOUT", "120"))
