@@ -15,7 +15,7 @@ MAIN_KEY = "lin_shen"
 # =========================================
 # SELF PING URL (RENDER URL)
 # =========================================
-SELF_URL = "https://your-render-name.onrender.com"
+SELF_URL = "https://mask-api-7csf.onrender.com"
 
 # =========================================
 # HOME
